@@ -1,0 +1,11 @@
+App name mismatch detected. The runner is configured with app name "activities_app", but the root agent was loaded from "/Users/deepakkumar/Desktop/deepak_folder/AI-Powered Travel Planner/.venv/lib/python3.11/site-packages/google/adk/agents", which implies app name "agents".
+Starting Activities Agent on port 8003...
+INFO:     Started server process [11157]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8003 (Press CTRL+C to quit)
+INFO:     127.0.0.1:52882 - "POST /run HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11157]

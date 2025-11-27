@@ -1,0 +1,17 @@
+[project]
+name = "ai-powered-travel-planner"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.122.0",
+    "google-adk>=1.18.0",
+    "httpx>=0.28.1",
+    "litellm>=1.80.5",
+    "openai>=2.8.1",
+    "pydantic>=2.12.4",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.51.0",
+    "uvicorn>=0.38.0",
+]

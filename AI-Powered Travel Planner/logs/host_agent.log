@@ -1,0 +1,22 @@
+INFO:     Started server process [11161]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+Starting Host Agent on port 8000...
+==================================================
+Host Agent: Incoming payload: {'origin': 'New York', 'destination': 'paris', 'start_date': '2025-11-27', 'end_date': '2025-11-29', 'budget': 3000.0}
+==================================================
+
+--------------------------------------------------
+Flight Agent Response: {'flights': '```json\n{\n  "flights": [\n    {\n      "airline": "Air France",\n      "departure_time": "2025-11-27 08:00 AM EST",\n      "arrival_time": "2025-11-27 09:00 PM CET",\n      "duration": "7h 0m",\n      "price": 1550.0\n    },\n    {\n      "airline": "Delta Airlines",\n      "departure_time": "2025-11-27 10:30 AM EST",\n      "arrival_time": "2025-11-27 11:30 PM CET",\n      "duration": "7h 0m",\n      "price": 1400.0\n    },\n    {\n      "airline": "United Airlines",\n      "departure_time": "2025-11-27 06:00 PM EST",\n      "arrival_time": "2025-11-28 07:00 AM CET",\n      "duration": "7h 0m",\n      "price": 1300.0\n    }\n  ]\n}\n```'}
+--------------------------------------------------
+Stay Agent Response: {'stays': '```json\n{"stays": [{"name": "Hotel Le Littré", "location": "6th Arrondissement, near Montparnasse Tower", "rating": 4.5, "price_per_night": 420, "amenities": ["Free Wi-Fi", "Fitness center", "Bar", "Soundproofed rooms", "Concierge service"]}, {"name": "Le Metropolitan, a Tribute Portfolio Hotel", "location": "16th Arrondissement, near Eiffel Tower", "rating": 4.3, "price_per_night": 550, "amenities": ["Indoor pool", "Fitness center", "Restaurant", "Bar", "Eiffel Tower views (select rooms)", "Free Wi-Fi"]}, {"name": "Hotel Lutetia", "location": "Saint-Germain-des-Prés, Left Bank", "rating": 4.7, "price_per_night": 950, "amenities": ["Indoor pool", "Spa", "Fitness center", "Multiple restaurants", "Bar", "Concierge", "Pet-friendly"]}]}\n```'}
+--------------------------------------------------
+Activities Agent Response: {'activities': '```json\n{\n  "activities": [\n    {\n      "name": "Louvre Museum Visit",\n      "description": "Explore one of the world\'s largest and most famous art museums, home to the Mona Lisa and Venus de Milo.",\n      "price": 22,\n      "duration_hours": 3.5\n    },\n    {\n      "name": "Eiffel Tower Summit Experience",\n      "description": "Ascend to the summit of the iconic Eiffel Tower for breathtaking panoramic views of Paris.",\n      "price": 32,\n      "duration_hours": 2.5\n    },\n    {\n      "name": "Seine River Cruise",\n      "description": "Enjoy a leisurely cruise along the Seine River, passing by major Parisian landmarks. Perfect for appreciating the city\'s beauty from a unique perspective, especially at dusk.",\n      "price": 18,\n      "duration_hours": 1.0\n    }\n  ]\n}\n```'}
+--------------------------------------------------
+
+INFO:     127.0.0.1:52876 - "POST /run HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [11161]
