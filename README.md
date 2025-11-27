@@ -32,19 +32,6 @@
 ### Live Application
 👉 **[Try it now!](https://deepak338-ai-powered-travel-planner.streamlit.app)**
 
-### Screenshots
-
-<div align="center">
-
-**Beautiful Gradient Interface**
-
-![UI Screenshot](https://via.placeholder.com/800x400/667eea/ffffff?text=AI+Travel+Planner+UI)
-
-**AI-Generated Travel Recommendations**
-
-![Results Screenshot](https://via.placeholder.com/800x400/764ba2/ffffff?text=Flight+Hotel+Activity+Results)
-
-</div>
 
 ---
 
@@ -287,18 +274,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 Email: your-email@example.com
+- 📧 Email: deepakthedev@gmail.com
 - 🐛 Issues: [GitHub Issues](https://github.com/deepak338/AI-Powered-travel-planner/issues)
-- 💬 Discussions: [GitHub Discussions](https://github.com/deepak338/AI-Powered-travel-planner/discussions)
+
 
 ---
 
-<div align="center">
-
-**⭐ Star this repo if you found it helpful!**
-
-Made with ❤️ using Google ADK and Gemini 2.0
-
-[⬆ Back to Top](#-ai-powered-travel-planner)
-
-</div>
